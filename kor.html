@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="najem.css">
+    <title>najm</title>
+</head>
+
+<body>
+
+
+    <h1 style="font-size: 70px;"><em> Mon premier formulaire </em></h1>
+    <form>
+        <fieldset>
+
+            <legend>Vos données personnelles </legend>
+
+            <label> Nom(*): </label>
+            <input type="text" minlength="3" maxlength="10"> <br>
+            <label> Prénom(*): </label>
+            <input type="email"> <br>
+            <label>  Date de naissance :</label>
+            <input type="date"><br>
+            <fieldset>
+                <legend>Lieu de naissance</legend>
+                <input type="radio" id="html" name="fav_language">
+                <label for="html">Seine Seint-denis</label>
+                <input type="radio" id="css" name="fav_language">
+                <label for="css">Reste du monde</label>
+                <label for="tel">ennter your number</label> <input type="tel" name="phone" id="phone" pattern="[0-9]{10}">
+            </fieldset>
+            <label>  Adresse  </label>
+            <textarea> </textarea><br>
+            <label>Code postal</label>
+            <input type="number"><br>
+            <label for="semestre">semistre</label>
+            <select id="lmatr" size="1">
+            <optgroup label="semestre " ></label><br>
+            <option> semestre 1 </option>
+            <option> semestre 2</option>
+                
+                
+            <input type="range" min="1" max="10"><br>
+            <fieldset >
+            <legend>Connaissances en HTML</legend>
+               <label >
+                <input type="checkbox" value="html" name="conhtml" id="conhtml"> HTML 
+                <input type="checkbox" value="html" name="conhtml" id="conhtml"> Css
+                <input type="checkbox" value="html" name="conhtml" id="conhtml"> Formulaires 
+                <input type="checkbox" value="html" name="conhtml"> js
+²               </label>
+            </fieldset ><br>
+
+            <p style="font-size: 20px;">*Les champs marqués par étoile sont obligatoires </p><br><br>
+            <input type="button" value="Envoyer">
+        </form>
+        <input type="button" value="Reinitialiser">
+    </form>
+        <!-- <picture>
+           <source srcset="ph1.jpg" media="min-with:1000px">
+           <source srcset="ph2.jpg" media="min-with:500px">
+           <source srcset="ph3.jpg" media="min-with:300px"> -->
+        <!-- </picture> -->
+        <!-- <iframe width="400" height="300" src="https://www.youtube.com/embed/WvMw4BQc83Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen > </iframe> -->
+        <!-- <iframe src="http://127.0.0.1:5500/kor.html" frameborder="0"></iframe> -->
+        <!-- <iframe src="http://127.0.0.1:5500/kor.html" width="300" height="250"></iframe> -->
+        <!-- <object data="www.google" type=""></object> -->
+        
+   
+</body>
+
+</html>
